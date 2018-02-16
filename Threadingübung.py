@@ -25,7 +25,7 @@ t1.start() #Thread 1 started und berechnet die jeweiligen Werte die ihm zugestel
 t1.join()  #Es wird gewartet bis Thread 1 mit der Aufgabe fertig wird
 
 t2.start() #Thread 2 started und berechnet die jeweiligen Werte die ihm zugestellt wurden
-t2.join()  #Es wird gewartet bis Thread 1 mit der Aufgabe fertig wird
+t2.join()  #Es wird gewartet bis Thread 2 mit der Aufgabe fertig wird
 
 print("Der Vorgang wurde vollendet in: ",time.time()-t)
 print("Es sind kein Aufträge mehr verfügbar")
